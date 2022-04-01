@@ -1,0 +1,16 @@
+:root {
+  --night-blue: #03045e;
+  --darker-blue: #00b4d8;
+  --sky-blue: #90e0ef;
+  --light-blue: #caf0f8;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-family: "Comfortaa", cursive;
+}
+header {
+  background-color: var(--darker-blue);
+  color: var(--light-blue);
+}
