@@ -3,14 +3,44 @@
   --darker-blue: #00b4d8;
   --sky-blue: #90e0ef;
   --light-blue: #caf0f8;
+  --default-font-family: "Comfortaa", cursive;
+  --heading-font-family: "Poppins", sans-serif;
 }
-h1 {
-  font-family: "Poppins", sans-serif;
+body {
+  font-family: var(--default-font-family);
 }
-h2 {
-  font-family: "Comfortaa", cursive;
+.hero {
+  background-color: var(--light-blue);
+  color: var(--night-blue);
+  text-align: center;
+  padding: 180px 20px;
 }
-header {
-  background-color: var(--darker-blue);
-  color: var(--light-blue);
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-style: italic;
+  font-size: 96px;
+  margin: 20px;
+}
+.hero h2,
+.hero h3 {
+  margin-left: 10rem;
+  padding: 20px;
+}
+.hero h2 {
+  font-size: 48px;
+}
+.hero h3 {
+  font-size: 36px;
+}
+.btn-branding {
+  background-color: var(--sky-blue);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 20px;
+}
+.btn-branding:hover {
+  color: var(--night-blue);
 }
