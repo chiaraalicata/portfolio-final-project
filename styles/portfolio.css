@@ -8,6 +8,8 @@
 }
 body {
   font-family: var(--default-font-family);
+  background-color: var(--light-blue);
+  padding-bottom: 30px;
 }
 .hero {
   background-color: var(--light-blue);
@@ -43,4 +45,40 @@ body {
 }
 .btn-branding:hover {
   color: var(--night-blue);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 52px;
+  }
+  .hero h2 {
+    font-size: 36px;
+  }
+  .hero h3 {
+    font-size: 24px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+}
+.portfolio-heading {
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  color: var(--night-blue);
+  padding: 50px 20px;
+}
+.project-heading {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  margin-top: 20px;
+  color: var(--night-blue);
+}
+.project-description {
+  color: var(--darker-blue);
+  text-align: center;
+  padding-top: 30px;
+}
+.col-sm > p {
+  padding: 50px 70px;
+  color: var(--darker-blue);
 }
