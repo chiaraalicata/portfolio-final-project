@@ -60,6 +60,20 @@ body {
   .hero {
     padding: 80px 20px;
   }
+  .project-heading {
+    text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .about-img {
+    max-width: 75%;
+    margin-top: 50px;
+  }
 }
 .portfolio-heading {
   font-family: var(--heading-font-family);
@@ -81,4 +95,37 @@ body {
 .col-sm > p {
   padding: 50px 70px;
   color: var(--darker-blue);
+}
+
+.hi-name {
+  font-size: 72px;
+}
+.about-heading {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  color: var(--night-blue);
+  padding: 50px 20px;
+}
+.about-description {
+  color: var(--darker-blue);
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+.about-section {
+  padding: 180px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+
+.col-sm > h2 {
+  color: var(--night-blue);
+  font-family: var(--heading-font-family);
+}
+.working > ul {
+  color: var(--darker-blue);
+  text-align: center;
+  list-style: none;
 }
