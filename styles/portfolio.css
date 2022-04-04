@@ -142,9 +142,12 @@ body {
 }
 .links {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   color: var(--darker-blue);
 }
 .links:hover {
   color: white;
+}
+.insta {
+  font-size: 48px;
 }
