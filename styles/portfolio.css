@@ -81,7 +81,8 @@ body {
   color: var(--night-blue);
   padding: 50px 20px;
 }
-.project-heading {
+.project-heading,
+.contacts-content {
   font-family: var(--heading-font-family);
   font-size: 30px;
   margin-top: 20px;
@@ -100,7 +101,8 @@ body {
 .hi-name {
   font-size: 72px;
 }
-.about-heading {
+.about-heading,
+.contacts-content > h1 {
   font-family: var(--heading-font-family);
   font-size: 48px;
   color: var(--night-blue);
@@ -137,4 +139,12 @@ body {
   background-color: var(--light-blue);
   border-radius: 40px;
   margin: 10px;
+}
+.links {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--darker-blue);
+}
+.links:hover {
+  color: white;
 }
