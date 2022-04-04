@@ -133,3 +133,8 @@ body {
 .details-about-me {
   margin-bottom: 40px;
 }
+.skills-logos {
+  background-color: var(--light-blue);
+  border-radius: 40px;
+  margin: 10px;
+}
