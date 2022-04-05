@@ -15,7 +15,7 @@ body {
   background-color: var(--light-blue);
   color: var(--night-blue);
   text-align: center;
-  padding: 180px 20px;
+  padding: 85px 20px;
 }
 .hero h1 {
   font-family: var(--heading-font-family);
@@ -46,7 +46,34 @@ body {
 .btn-branding:hover {
   color: var(--night-blue);
 }
-
+.logo {
+  max-width: 150px;
+}
+.small-logo {
+  max-width: 30%;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--night-blue);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--darker-blue);
+}
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 52px;
@@ -58,15 +85,23 @@ body {
     font-size: 24px;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 50px 20px;
   }
   .project-heading {
     text-align: center;
   }
-  .about-section {
+  .about-section-content {
     text-align: center;
-    padding: 0;
-    margin-top: 0;
+  }
+  .about-section-content > .about-heading {
+    font-size: 40px;
+  }
+  .about-heading > .hi-name {
+    font-size: 62px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
 @media (min-width: 992px) {
@@ -74,6 +109,9 @@ body {
     max-width: 75%;
     margin-top: 50px;
   }
+}
+.project-image {
+  border: solid 5px var(--sky-blue);
 }
 .portfolio-heading {
   font-family: var(--heading-font-family);
@@ -116,7 +154,7 @@ body {
   line-height: 1.5em;
 }
 .about-section {
-  padding: 180px 20px;
+  padding: 20px 20px 50px;
 }
 .about-section-content {
   margin: 30px;
