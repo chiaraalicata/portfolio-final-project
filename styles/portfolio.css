@@ -50,7 +50,7 @@ body {
   max-width: 150px;
 }
 .small-logo {
-  max-width: 30%;
+  max-width: 100%;
 }
 nav {
   padding: 20px 0;
@@ -99,9 +99,11 @@ nav li.active a {
   .about-heading > .hi-name {
     font-size: 62px;
   }
-
   nav a {
     font-size: 14px;
+  }
+  .small-logo {
+    margin-right: -200px;
   }
 }
 @media (min-width: 992px) {
@@ -188,4 +190,46 @@ nav li.active a {
 }
 .insta {
   font-size: 48px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--sky-blue);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer h4 {
+  font-family: var(--heading-font-family);
+  color: var(--night-blue);
+  font-size: 40px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--night-blue);
+  background-color: var(--sky-blue);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--night-blue);
+}
+
+.btn-contact {
+  background-color: var(--darker-blue);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin: 20px;
+}
+.btn-contact:hover {
+  color: var(--night-blue);
 }
