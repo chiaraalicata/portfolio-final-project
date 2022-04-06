@@ -220,6 +220,11 @@ footer .social-links a:hover {
   color: white;
   background-color: var(--night-blue);
 }
+footer .open-source {
+  color: var(--night-blue);
+  font-size: 12px;
+  margin: 60px;
+}
 
 .btn-contact {
   background-color: var(--darker-blue);
